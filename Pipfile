@@ -24,8 +24,6 @@ requests = "*"
 flask-mail = "*"
 python-dateutil = "*"
 
-[requires]
-python_version = "3.10"
 
 [scripts]
 start="flask run -p 3001 -h 0.0.0.0"
